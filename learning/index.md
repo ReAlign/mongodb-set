@@ -39,7 +39,7 @@ options: {
 > db.collection.update(query, update, options)
 
 * query: update的查询条件，见 **[查询文档](#查询)**
-* update: update的对象和一些更新的操作符，见 **[更新操作符](#update-operator)**
+* update: update的对象和一些更新的操作符，见 **[更新操作符](#更新操作符)**
 * options: {...}
     * upsert: 如果不存在update的记录，是否插入objNew,true为插入，默认是false
     * multi: 更新多条（符合条件的），默认是false
@@ -127,7 +127,7 @@ options: {
 | Min key | 255 |  |
 | Max key | 127 |  |
 
-#### <span id="update-operator">更新操作符</span>
+#### 更新操作符
 
 | operator | demo | note |
 | --- | --- | --- |
