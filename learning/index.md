@@ -38,7 +38,7 @@ options: {
 
 > db.collection.update(query, update, options)
 
-* query: update的查询条件，见 **[查询文档](#quert-document)**
+* query: update的查询条件，见 **[查询文档](#查询)**
 * update: update的对象和一些更新的操作符，见 **[更新操作符](#update-operator)**
 * options: {...}
     * upsert: 如果不存在update的记录，是否插入objNew,true为插入，默认是false
@@ -59,7 +59,7 @@ options: {
     * justOne: 只删除一个文档
     * writeConcern: 抛出异常的级别
 
-### <span id="quert-document">查询</span>
+### 查询
 
 > db.collection.find(query, projection)
 
