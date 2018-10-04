@@ -59,9 +59,7 @@ options: {
     * justOne: 只删除一个文档
     * writeConcern: 抛出异常的级别
 
-<span id="quert-document"></span>
-
-### 查询
+### <span id="quert-document">查询</span>
 
 > db.collection.find(query, projection)
 
@@ -129,9 +127,7 @@ options: {
 | Min key | 255 |  |
 | Max key | 127 |  |
 
-<span id="update-operator"></span>
-
-#### 更新操作符
+#### <span id="update-operator">更新操作符</span>
 
 | operator | demo | note |
 | --- | --- | --- |
